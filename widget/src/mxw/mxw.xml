@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mxw.widget.mxw" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>mxw</name>
+    <description>The official mxw widget.</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAqJJREFUOE9dk11IU2EYx387bu7jTOZUrJQYufwuFyVk0VWEJFFQZAldVFddJAhB0G23RhJGUNFFRRQoCoFJEFSkoEaGX5nmdBpEJZZtTufm3HrO2Zwfv5vznue87/99nv/zHENcYAuj88u0TfnxBiIYDFDktFHrdlJoV5I71tkkML0QobxlnKV/YTClgdEI8Rj8nIaAn6y8LL42HCfXKvEkKYGOmQAnn3wB1QSKXKtaYWEOJvrlXcSWIhCJgn+JN81XOebeti7wPRjB1dTPs7oSPNkWrGYTlx6/p3twECwiJIc6b9SS77Cjmo3sv/mc8VtX2G5R0Iva2/INbCb25djYk23FbTfyoLoYQquwGiPflUtNmYuK/GzcOQ5KxBPP3dd6BsqEP0zg7zKkGYjE1v0sK9pJZobcHlym+ewRPbYSFUEhXbyZHZ1iTipS2n1+iUiNG2h62ZN4nj4MsRhnPAV09I3hXxYfNLTWrIZo8wVRJv0S3NKdnunffP4xx+XqA1yvqdRjDS0fcNjM+jpBDK9kr2iGbyVHtVDf2qWvGy8cJR5eYWrIh0nZcJN0RjuslGSKqrR6I2q6kZ5uaWmSay/egTMj+SZonTfbKXGko5zfnQnhhDkptBrtVk7cf8XTj+Pc6RIxEU0Rl/0WJ3UFdpQd0j5XngrROFnmhJmqdEQ70DkwycWHndJiyVITTRJdiVJ6qAKrhPRBWlyJYb/9idJdDrJVM96RYX7N+GScZSrXkENVhflSbpTeWQPRxlq061KjPPQnhOfRiKQmqVrl4MBb3ShxSvucqDsYkkU63nv1uG2JjFICGhGZusp2L8MzCzJY4uxYn+QrP1ZcNofCHKwqp7fhVHJ3gk0Ca4SiMVp9ASYW4xiC8xSrBs55XJvbqAP/AT+++TY8qMzNAAAAAElFTkSuQmCC</icon>
+    <properties>
+        <property key="module" type="string" required="true" defaultValue="">
+            <caption>Module</caption>
+            <category>Initialization</category>
+            <description>The module to use.</description>
+        </property>
+        <property key="controller" type="string" required="true" defaultValue="">
+            <caption>Controller</caption>
+            <category>Initialization</category>
+            <description>The controller to then use.</description>
+        </property>
+        <property key="method" type="string" required="true" defaultValue="">
+            <caption>Method</caption>
+            <category>Initialization</category>
+            <description>The method as your first entry point.</description>
+        </property>
+    </properties>
+</widget>
+

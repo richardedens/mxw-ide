@@ -1,0 +1,55 @@
+{
+  "name": "mxw-ide",
+  "productName": "mxw-ide",
+  "version": "0.0.2",
+  "description": "The mendix widget ide.",
+  "license": "MIT",
+  "repository": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "pack:osx": "electron-packager . --app-version=$npm_package_version --prune --asar --overwrite --out=dist/osx --platform=darwin --arch=x64 --icon=assets/mxw.icns",
+    "pack:win32": "electron-packager . --app-version=$npm_package_version --prune --asar --overwrite --out=dist/win --platform=win32 --arch=ia32",
+    "pack:win64": "electron-packager . --app-version=$npm_package_version --prune --asar --overwrite --out=dist/win --platform=win32 --arch=x64 --version=0.36.2 app-version=1.0 --icon=assets/mxw.ico",
+    "buildall": "npm run pack:osx && npm run pack:win32 && npm run pack:win64",
+    "build": "npm run pack:osx"
+  },
+  "files": [
+    "index.js",
+    "ace/*",
+    "ace/**/*",
+    "assets/*",
+    "devices/*",
+    "lib/*",
+    "app/system/system.js",
+    "app/app.js",
+    "main.html"
+  ],
+  "keywords": [
+    "mxw-ide",
+    "mxw"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.1.0",
+    "express": "^4.14.0",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.0.1",
+    "electron-packager": "^7.0.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}

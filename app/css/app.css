@@ -1,0 +1,104 @@
+#jsEditor {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#htmlEditor {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+#cssEditor {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+#resultWidget {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    webkit-box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,.75);
+    -moz-box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,.75);
+    box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,.75);
+}
+.device-selection {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    bottom: 0;
+    border-right: 1px solid grey;
+    overflow: hidden;
+}
+.device-header {
+    width: 100%;
+    height: 24px;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.device-devices {
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 11px;
+    text-shadow: 1px 1px 5px #000;
+}
+.device-devices span {
+    padding-bottom: 5px;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.device-devices img {
+    cursor: pointer;
+}
+.device-selection-device {
+    position: absolute;
+    left: 120px;
+    top: 0;
+    bottom: 0;
+    right: 820px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    vertical-align: middle;
+}
+.device-selection-site {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    width: 820px;
+    background-color: rgba(255,255,255,0.9);
+}
+.intro {
+    background-image: url(../../assets/intro.png);
+    width: 750px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -375px;
+    position: absolute;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
